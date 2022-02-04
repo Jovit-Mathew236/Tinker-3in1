@@ -6,7 +6,8 @@
     padding: 0%;
     font-family: 'Lora', serif;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -154,15 +155,19 @@ body{
     margin-top: 30px;
     transition: .4s ease-in-out;
 }
-.btn:hover{
+
+.btn:hover {
     color: #ffa000;
     background-color: rgba(255, 255, 255, 0.788);
     border-color: #ffa000;
 }
+
 .information-div {
     width: 100%;
+    padding: 12px 0px;
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-image: url("Images/bg.jpg");
@@ -182,56 +187,66 @@ body{
 .contents p {
     padding: 33px;
 }
-.form{
+
+.form {
     width: 360px;
     background-color: white;
     padding: 40px 0px;
     height: 250px;
     border-radius: 5px;
 }
-.form h2{
+
+.form h2 {
     color: #ffa000;
     margin: auto;
     text-align: center;
 }
-.input-grp{
+
+.input-grp {
     display: flex;
     flex-direction: column;
     margin: 45px 20px;
     width: 300px;
     position: relative;
 }
-.input-grp input{
+
+.input-grp input {
     outline: none;
     border: none;
     border-bottom: 1px solid orange;
 }
-.input-grp label{
+
+.input-grp label {
     color: grey;
     position: absolute;
     top: -5px;
     transition: .5s ease-in-out;
 }
-.input-grp input:focus ~ label,
-.input-grp input:valid ~ label{
+
+.input-grp input:focus~label,
+.input-grp input:valid~label {
     color: #ffa000;
     top: -15px;
     font-size: 12px;
 }
+
 .input-grp input:focus,
-.input-grp input:valid{
+.input-grp input:valid {
     border-color: #ffa000;
 }
-.submit-btn{
+
+.submit-btn {
     text-align: center
 }
-.submit-btn button{
+
+.submit-btn button {
     border: none;
     border-radius: 5px;
     background-color: #ffa000;
     color: white;
     padding: 10px 25px;
 }
+
 .footer {
     height: 10vh;
     background-color: #764b00a1;
