@@ -83,7 +83,10 @@ body {
     margin-left: 40%;
     width: 50%;
     margin-top: 30vh;
-    color: white;
+    color: #5a2323;
+    background: -webkit-linear-gradient(285deg, #ffa000, #5a2323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 20px;
     font-family: 'lora', cursive;
 }
