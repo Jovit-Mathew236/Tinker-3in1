@@ -44,8 +44,11 @@ body {
     background-image: url("Images/logo2.png");
     background-size: contain;
     background-position: center;
+    transition: 1s ease-in-out;
 }
-
+.logo-img:hover{
+    transform: rotate(360deg);
+}
 #menu {
     width: 50%;
     color: white;
