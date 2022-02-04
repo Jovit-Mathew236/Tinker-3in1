@@ -97,6 +97,11 @@ body {
         font-size: 15px;
     }
 }
+@media (max-width:500px){
+    .menu{
+        display: none;
+    }
+}
 
 .second-page {
     height: auto;
