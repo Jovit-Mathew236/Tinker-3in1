@@ -81,15 +81,15 @@ body {
     transform: scale(1.02);
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .btns {
-        margin-top: 70px;
+        margin-top: 5%;
     }
 
     .first-page .heading-div {
         margin-left: 5%;
         width: unset;
-        margin-top: 53vh;
+        margin-top: 120%;
         font-size: 15px;
     }
 }
