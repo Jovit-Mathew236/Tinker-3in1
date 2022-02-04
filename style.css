@@ -47,7 +47,11 @@ body {
     justify-content: space-around;
     transition: .2s ease-in-out;
 }
-
+#menu a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
 .first-page {
     height: calc(100vh - 70px);
     width: 100vw;
@@ -80,6 +84,7 @@ body {
     color: white;
     padding: 8px 10px;
     transition: .2s ease-in-out;
+    cursor: pointer;
 }
 
 .btns button:hover {
@@ -182,6 +187,7 @@ body {
     padding: 10px 13%;
     margin-top: 30px;
     transition: .4s ease-in-out;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -231,6 +237,7 @@ body {
 .contents p a {
     text-decoration: none;
     color: #ffa000;
+    cursor: pointer;
 }
 
 .form {
