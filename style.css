@@ -11,7 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .header-div {
     height: 70px;
     width: 96vw;
@@ -55,6 +54,16 @@ body {
     align-items: center;
 }
 
+
+.first-page .heading-div {
+    margin-left: 40%;
+    width: 50%;
+    margin-top: 30vh;
+    color: white;
+    font-size: 20px;
+    font-family: 'lora', cursive;
+}
+
 .btns {
     margin-top: 150px;
 }
@@ -72,13 +81,16 @@ body {
     transform: scale(1.02);
 }
 
-.first-page .heading-div {
-    margin-left: 40%;
-    width: 50%;
-    margin-top: 30vh;
-    color: white;
-    font-size: 20px;
-    font-family: 'lora', cursive;
+@media (max-width:400px) {
+    .btns {
+        margin-top: 70px;
+    }
+
+    .first-page .heading-div {
+        margin-left: 5%;
+        width: unset;
+        margin-top: 45vh;
+    }
 }
 
 .second-page {
@@ -135,7 +147,6 @@ body {
     }
 }
 
-.card p {}
 
 .danger {
     color: red;
@@ -183,16 +194,19 @@ body {
     border-radius: 10px;
     background-image: linear-gradient(108deg, #ff00c8, #ff2f00d6);
 }
+
 @media (max-width:720px) {
-    .contents{
+    .contents {
         width: 80%;
     }
 }
+
 @media (max-width:500px) {
-    .contents{
+    .contents {
         width: 360px;
     }
 }
+
 .contents p {
     padding: 33px;
 }
