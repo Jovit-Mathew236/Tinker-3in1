@@ -202,7 +202,10 @@ body {
 .contents p {
     padding: 33px;
 }
-
+.contents p a{
+    text-decoration: none;
+    color: #ffa000;
+}
 .form {
     width: 360px;
     background-color: white;
