@@ -31,7 +31,7 @@ body{
     width: 50px;
     border: 1px solid white;
     border-radius: 50%;
-    background-image: url(/Images/logo2.png);
+    background-image: url("Images/logo2.png");
     background-size: contain;
     background-position: center;
 }
@@ -165,7 +165,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/Images/bg.jpg);
+    background-image: url("Images/bg.jpg");
     background-attachment: fixed;
     background-size: contain;
 }
