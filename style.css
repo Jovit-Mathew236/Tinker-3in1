@@ -89,12 +89,13 @@ body {
     .first-page .heading-div {
         margin-left: 5%;
         width: unset;
-        margin-top: 45vh;
+        margin-top: 53vh;
+        font-size: 15px;
     }
 }
 
 .second-page {
-    height: auto;
+    height: auto; 
     width: 100vw;
 }
 
@@ -145,15 +146,6 @@ body {
     .card img {
         width: calc(100vw / 1.5)
     }
-}
-
-
-.danger {
-    color: red;
-}
-
-.green {
-    color: green;
 }
 
 .btn {
