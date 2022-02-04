@@ -81,7 +81,11 @@ body {
     transform: scale(1.02);
 }
 
-@media (max-width:500px) {
+@media (max-width:700px) {
+    .first-page{
+        height: auto;
+        padding: 20px 0px;
+    }
     .btns {
         margin-top: 3%;
     }
