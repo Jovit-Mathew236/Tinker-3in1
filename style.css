@@ -1,0 +1,244 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Pacifico&display=swap');* { */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lora:wght@500;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lora', serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.header-div {
+    height: 70px;
+    width: 96vw;
+    padding: 0px 2vw;
+    display: flex;
+    background-color: #ffa000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url(/Images/logo2.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.menu {
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-page {
+    height: calc(100vh - 70px);
+    width: 100vw;
+    background: url("Images/Frame\ 3.jpg"), linear-gradient(180deg, #E5EAFE 33.24%, #B9C8FF 62.16%, #CBC3F4 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns {
+    margin-top: 150px;
+}
+
+.btns button {
+    background-color: orange;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 10px;
+    transition: .2s ease-in-out;
+}
+
+.btns button:hover {
+    transform: scale(1.02);
+}
+
+.first-page .heading-div {
+    margin-left: 40%;
+    width: 50%;
+    margin-top: 30vh;
+    color: white;
+    font-size: 20px;
+    font-family: 'lora', cursive;
+}
+
+.second-page {
+    height: auto;
+    width: 100vw;
+}
+
+.poster-div {
+    padding: 5px;
+}
+
+.card-div {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: calc(100vw / 4);
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 19px 0px #3e3a3a63;
+    transition: .2s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width:990px) {
+    .card img {
+        width: calc(100vw / 3)
+    }
+}
+
+@media (max-width:690px) {
+    .card img {
+        width: calc(100vw / 2)
+    }
+}
+
+@media (max-width:590px) {
+    .card img {
+        width: calc(100vw / 1.5)
+    }
+}
+
+.card p {}
+
+.danger {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.btn {
+    background-color: #ffa000;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 13%;
+    margin-top: 30px;
+    transition: .4s ease-in-out;
+}
+.btn:hover{
+    color: #ffa000;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-color: #ffa000;
+}
+.information-div {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Images/bg.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.contents {
+    height: 100%;
+    margin: 10px;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    background-image: linear-gradient(108deg, #ff00c8, #ff2f00d6);
+}
+
+.contents p {
+    padding: 33px;
+}
+.form{
+    width: 360px;
+    background-color: white;
+    padding: 40px 0px;
+    height: 250px;
+    border-radius: 5px;
+}
+.form h2{
+    color: #ffa000;
+    margin: auto;
+    text-align: center;
+}
+.input-grp{
+    display: flex;
+    flex-direction: column;
+    margin: 45px 20px;
+    width: 300px;
+    position: relative;
+}
+.input-grp input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid orange;
+}
+.input-grp label{
+    color: grey;
+    position: absolute;
+    top: -5px;
+    transition: .5s ease-in-out;
+}
+.input-grp input:focus ~ label,
+.input-grp input:valid ~ label{
+    color: #ffa000;
+    top: -15px;
+    font-size: 12px;
+}
+.input-grp input:focus,
+.input-grp input:valid{
+    border-color: #ffa000;
+}
+.submit-btn{
+    text-align: center
+}
+.submit-btn button{
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa000;
+    color: white;
+    padding: 10px 25px;
+}
+.footer {
+    height: 10vh;
+    background-color: #764b00a1;
+    color: white;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
