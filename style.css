@@ -183,7 +183,16 @@ body {
     border-radius: 10px;
     background-image: linear-gradient(108deg, #ff00c8, #ff2f00d6);
 }
-
+@media (max-width:720px) {
+    .contents{
+        width: 80%;
+    }
+}
+@media (max-width:500px) {
+    .contents{
+        width: 360px;
+    }
+}
 .contents p {
     padding: 33px;
 }
