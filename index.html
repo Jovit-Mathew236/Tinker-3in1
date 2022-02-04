@@ -13,19 +13,21 @@
 
 <body>
     <div>
+
         <div class="header-div">
             <div class="logo">
                 <div class="logo-img">
                 </div>
             </div>
-            <button onclick="menuFunc()"><svg width="32" height="22" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M18 12H6V10H18V12ZM18 7H0V5H18V7ZM18 2H6V0H18V2Z" fill="white"/>
+            <button onclick="menuFunc()"><svg width="30" height="22" viewBox="0 0 18 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 12H6V10H18V12ZM18 7H0V5H18V7ZM18 2H6V0H18V2Z" fill="white" />
                 </svg>
-                </button>
+            </button>
             <div id="menu">
-                <p>Register</p>
-                <p>Testimonals</p>
-                <p>About</p>
+                <a>Register</a>
+                <a>Testimonals</a>
+                <a>About</a>
             </div>
         </div>
         <div class="first-page">
@@ -38,25 +40,26 @@
                     domains exclusive for SJCETians <br></p>
             </div>
             <div class="btns">
-                <button href="#">Register Now</button>
-                <button href="#">More About</button>
+                <a href="#register"><button>Register Now</button></a>
+                <a href="#about"><button>More About</button></a>
             </div>
         </div>
-        <div class="second-page">
+
+        <div id="register" class="second-page">
             <div class="poster-div">
                 <div class="card-div">
                     <div class="card"><img src="Images/Frame 5.jpg" alt="">
-                        <button class="btn">Register Now</button>
+                        <a target="_blank" href="bit.ly/pythonx101"><button class="btn">Register Now</button></a>
                     </div>
                     <div class="card"><img src="Images/Frame 6.jpg" alt="">
-                        <button class="btn">Register Now</button>
+                        <a target="_blank" href="bit.ly/webx101"><button class="btn">Register Now</button></a>
                     </div>
                     <div class="card"><img src="Images/Frame 7.jpg" alt="">
-                        <button class="btn">Register Now</button>
+                        <a target="_blank" href="bit.ly/flutterx101"><button class="btn">Register Now</button></a>
                     </div>
                 </div>
             </div>
-            <div class="information-div">
+            <div id="about" class="information-div">
                 <div class="contents">
                     <p>Hey Tinkerers 💫<br>
 
@@ -72,14 +75,18 @@
 
                         Join us in the coming weeks to set your skills on fire. 🔥<br>
 
-                        🗳️ Enroll for Python Track @: <a href="bit.ly/pythonx101">bit.ly/pythonx101</a> <br>
+                        🗳️ Enroll for Python Track @: <a target="_blank" href="bit.ly/pythonx101">bit.ly/pythonx101</a>
+                        <br>
 
-                        🗳️ Enroll for Web Track @: <a href="bit.ly/webx101">bit.ly/webx101</a> <br>
+                        🗳️ Enroll for Web Track @: <a target="_blank" href="bit.ly/webx101">bit.ly/webx101</a> <br>
 
-                        🗳️ Enroll for Flutter Track @: <a href="bit.ly/flutterx101">bit.ly/flutterx101</a> <br>
+                        🗳️ Enroll for Flutter Track @: <a target="_blank"
+                            href="bit.ly/flutterx101">bit.ly/flutterx101</a> <br>
 
-                        Participants are free to enroll for more than one track. 🤗</p>
+                        Participants are free to enroll for more than one track. 🤗
+                    </p>
                 </div>
+
                 <form class="form">
                     <h2>Any Queries?</h2>
                     <div class="input-grp">
@@ -97,6 +104,7 @@
                 </form>
             </div>
         </div>
+
         <div class="footer">
             <p>Copyright @ 2022 TinkerHub</p>
             <p>Powered and Designed by Jovit Mathew</p>
