@@ -83,7 +83,7 @@ body {
 
 @media (max-width:500px) {
     .btns {
-        margin-top: 5%;
+        margin-top: 3%;
     }
 
     .first-page .heading-div {
@@ -95,7 +95,7 @@ body {
 }
 
 .second-page {
-    height: auto; 
+    height: auto;
     width: 100vw;
 }
 
@@ -202,10 +202,12 @@ body {
 .contents p {
     padding: 33px;
 }
-.contents p a{
+
+.contents p a {
     text-decoration: none;
     color: #ffa000;
 }
+
 .form {
     width: 360px;
     background-color: white;
