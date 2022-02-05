@@ -219,7 +219,7 @@ body {
 
 @media (max-width:590px) {
     .card img {
-        width: calc(100vw / 1.5)
+        width: calc(100vw / 1.2)
     }
 }
 
