@@ -29,6 +29,7 @@ body {
     outline: none;
     background: none;
     border: none;
+    margin-right: 15px;
 }
 
 .logo {
@@ -234,8 +235,9 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("Images/bg.jpg");
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 
 .contents {
@@ -327,6 +329,11 @@ body {
 @media (max-width:500px) {
     .contents {
         width: 360px;
+    }
+}
+@media (max-width:360px){
+    .input-grp {
+        width: unset;
     }
 }
 
