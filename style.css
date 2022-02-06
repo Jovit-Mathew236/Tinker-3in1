@@ -52,6 +52,7 @@ body {
 }
 .menu-btn{
     z-index: 1;
+    transition: 1s ease-in-out;
 }
 #menu {
     width: 50%;
